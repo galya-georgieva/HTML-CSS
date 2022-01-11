@@ -1,0 +1,246 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(22, 22, 22);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar nav {
+    flex: 1;
+    text-align: start;
+}
+
+.navbar nav ul {
+    padding-left: 20px;
+}
+
+.navbar nav ul, .contact .profils ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navbar nav ul, .contact .profils ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+}
+
+.navbar nav ul li, .contact .profils ul li {
+    display: inline-block;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(22, 22, 22);
+}
+
+.navbar nav ul li a:hover, .navbar nav ul li a i:hover, .profils ul li a:hover {
+    color: #834fc0;
+}
+
+.navbar nav i {
+    font-size: 20px;
+    color: rgb(22, 22, 22);
+}
+
+.container {
+    margin: 0px;
+    padding-left: 50px;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.11);
+    z-index: 1;
+    top: 0;
+    position: sticky;
+    background: #FFFFFF;
+}
+
+.credit-cards img {
+    width: 40px;
+    padding-right: 5px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+
+.footer-menu, .contact {
+    padding-left: 180px;
+}
+
+.footer-menu ul li a, .profils ul li a {
+    text-decoration: none;
+}
+
+.footer-menu ul li a {
+    color: rgb(22, 22, 22);
+    font-size: 18px;
+}
+
+.footer-menu ul li a:hover {
+    color: #834fc0;
+}
+
+.footer-menu ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer-menu h4, .contact h4 {
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.imail h6, .imail p, .phone-number h6, .phone-number p {
+    margin: 0px;
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+
+.phone-number h6 {
+    padding-top: 10px;
+}
+
+.profils ul {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.profils ul li {
+    padding: 10px 5px 10px 0px;
+}
+
+.profils ul li a {
+    font-size: 22px;
+    color: #551A8B;
+}
+
+.copyrights {
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+
+.image img {
+    opacity: 0.3;
+    padding: 25px 60px 0px 40px;
+    width: 300px;
+}
+
+footer {
+    background: #84D1ED;
+}
+
+.product-detail {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    margin: 50px 0px 50px 250px;
+}
+
+.photo-container img {
+    width: 350px;
+    height: 450px;
+}
+
+.product-text p {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.product-text h3 {
+    margin: 20px 0px 5px 0px;
+}
+
+.product-text button {
+    background-color: #844fc0e3;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.product-text button:hover {
+    background-color: #551A8B;
+    color: #f7f5f5;
+}
+
+.product-name {
+    margin: 0px;
+}
+
+.price {
+    margin: 20px 0px 5px 0px;
+}
+
+.latest-products-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 300px);
+    margin-bottom: 40px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    padding: 30px 20px;
+}
+
+.product:hover {
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.3);
+}
+
+.product .img-container img {
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    height: 300px;
+    width: 250px;
+}
+
+.product:hover .img-container img {
+    transform: scale(1.03);
+}
+
+.product-info h3 {
+    margin: 10px 0px 0px 0px;
+    color: #551A8B;
+}
+
+.latest-products-container a {
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    font-size: 25px;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.title h2::after {
+    content: '';
+    background: #834fc0;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 170px;
+}

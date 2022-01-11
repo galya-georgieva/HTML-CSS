@@ -1,0 +1,216 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(22, 22, 22);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar nav {
+    flex: 1;
+    text-align: start;
+}
+
+.navbar nav ul {
+    padding-left: 20px;
+}
+
+.navbar nav ul, .contact .profils ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navbar nav ul, .contact .profils ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+}
+
+.navbar nav ul li, .contact .profils ul li {
+    display: inline-block;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.home-page, .contact-page, .shopping-cart-page {
+    color: rgb(22, 22, 22);
+}
+
+.products-page {
+    color: #834fc0;
+}
+.navbar nav ul li a:hover, .navbar nav ul li a i:hover, .profils ul li a:hover{
+    color: #834fc0;
+}
+
+.navbar nav i {
+    font-size: 20px;
+    color: rgb(22, 22, 22);
+}
+
+.container {
+    margin: 0px;
+    padding-left: 50px;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.11);
+    z-index: 1;
+    top: 0;
+    position: sticky;
+    background: #FFFFFF;
+}
+
+.all-products {
+    margin: 40px 0px 10px 75px;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    margin: 0px 50px;
+}
+
+.products-container a, .pages a {
+    text-decoration: none;
+}
+
+.product {
+    background-color: #FFFFFF;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.164);
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+    transition: transform 0.3s;
+}
+.product:hover {
+    transform: translateY(-20px);
+}
+
+
+.img-container img {
+    width: 290px;
+    height: 350px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info h3 {
+    margin: 0px;
+    padding-bottom: 15px;
+    color: #551A8B;
+}
+
+.info .name {
+    padding-top: 10px;
+}
+
+.pagination span {
+    display: inline-block;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    font-size: 25px;
+    padding: 5px;
+    margin-left: 5px;
+}
+.secound{
+    background-color: #834fc0;
+    border: 1px solid rgb(22, 22, 22);
+    color: rgb(22, 22, 22);
+}
+.first{
+    border: 1px solid #834fc0; 
+    color: #834fc0;
+}
+.pagination span:hover {
+    border: 1px solid rgb(22, 22, 22);
+    background-color: #834fc0;
+    color: rgb(22, 22, 22);
+}
+.pages{
+    margin: 20px 0px 40px 75px;
+}
+
+.credit-cards img {
+    width: 40px;
+    padding-right: 5px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+
+.footer-menu, .contact {
+    padding-left: 180px;
+}
+
+.footer-menu ul li a, .profils ul li a {
+    text-decoration: none;
+}
+
+.footer-menu ul li a {
+    color: rgb(22, 22, 22);
+    font-size: 18px;
+}
+
+.footer-menu ul li a:hover {
+    color: #834fc0;
+}
+
+.footer-menu ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer-menu h4, .contact h4 {
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.imail h6, .imail p, .phone-number h6, .phone-number p {
+    margin: 0px;
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+
+.phone-number h6 {
+    padding-top: 10px;
+}
+
+.profils ul {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.profils ul li {
+    padding: 10px 5px 10px 0px;
+}
+
+.profils ul li a {
+    font-size: 22px;
+    color: #551A8B;
+}
+
+.copyrights {
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+
+.image img {
+    opacity: 0.3;
+    padding: 25px 60px 0px 40px;
+    width: 300px;
+}
+
+footer {
+    background: #84D1ED;
+}
